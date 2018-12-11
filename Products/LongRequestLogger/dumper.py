@@ -30,7 +30,7 @@ try:
 except (AttributeError, KeyError):
     config = {}
 
-formatter = logging.Formatter("%(asctime)s - %(message)s")
+formatter = logging.Formatter("------\n%(asctime)s - %(message)s")
 
 DEFAULT_TIMEOUT = 2
 DEFAULT_INTERVAL = 1
